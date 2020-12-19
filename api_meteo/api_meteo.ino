@@ -1,6 +1,3 @@
-//#include <LiquidCrystal_I2C.h>
-//#include <Bridge.h>
-//#include <ArduinoJson.h>
 #include <SPI.h>
 #include <HttpClient.h>
 #include <Ethernet.h>
