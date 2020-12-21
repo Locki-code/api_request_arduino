@@ -37,7 +37,7 @@ void loop() {
   Serial.println(F("Connected!"));
 
   // Send HTTP request
-  client.println(F("GET /data/2.5/weather?q=London&appid=24fbe7c261f76fbfe30a2f466c740f5e HTTP/1.0"));
+  client.println(F("GET /data/2.5/weather?q=London&appid=secret HTTP/1.0"));
   client.println(F("Host: api.openweathermap.org"));
   //client.println(F("GET /example.json HTTP/1.0"));
   //client.println(F("Host: arduinojson.org"));
